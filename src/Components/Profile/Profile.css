@@ -1,0 +1,46 @@
+body{
+    background-image: url("https://w.forfun.com/fetch/cd/cd012b9adaf7b5b52c3ebb71c39bdedb.jpeg");
+    background-size: cover;
+    background-size: 1800px 800px;
+}
+.profile {
+    padding: 20px;
+    border: 1px ;
+    border-radius: 5px;
+    
+    text-align: center;
+    padding-top: 30px;
+
+  }
+  
+  .profile h2 {
+    margin-bottom: 10px;
+    color: #ee640f;
+    font-size: 50px;
+    overflow: hidden;
+  border-right: 2px solid black; /* Cursor style */
+  
+  }
+  
+  .profile p {
+    color: #f4e9ea;
+    font-size: 30px;
+        
+  }
+  .header{margin-left: 60%;
+  color: rgb(242, 14, 97);
+  text-decoration: none;
+
+  }
+  .out{
+    background-color: red;
+}
+@keyframes typing {
+    from { width: 0%; }
+    to { width: 20%; }
+  }
+  
+  
+  
+  /* You can add more styles as needed */
+  

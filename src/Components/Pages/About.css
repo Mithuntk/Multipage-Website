@@ -1,0 +1,22 @@
+.about-background{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    background-image: url("../../Assets/wp3425558-car-wallpapers-hd-full-size.jpg");
+    background-repeat: no-repeat;
+  background-size: 2000px 800px;
+    color: white;
+}
+.about-background p{
+    text-align:center;
+    
+    color: rgb(240, 245, 240);
+    font-size: 1rem;
+    background-color: rgb(112, 112, 106);
+    margin: 8%;
+}
+.about-background h1{
+    text-align: center;
+    color: rgb(240, 245, 240);
+    background-color: rgb(112, 112, 106);
+}

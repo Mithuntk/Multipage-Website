@@ -1,0 +1,10 @@
+.contact-background {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    background-image: url("../../Assets/wp3425556-car-wallpapers-hd-full-size.jpg");
+    background-size:100% 100%;
+    color: white;
+
+
+}

@@ -1,0 +1,16 @@
+.home-background{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    background-image: url("../../Assets/sports-car-driving-asphalt-road-night-generative-ai.jpg");
+    background-size: cover;
+    background-size: 1500px 800px;
+    color: white;
+}
+.home-background p{
+    text-align: center;
+    margin: 8%;
+    color: rgb(240, 245, 240);
+    font-size: 1rem;
+    background-color: rgb(112, 112, 106);
+}
