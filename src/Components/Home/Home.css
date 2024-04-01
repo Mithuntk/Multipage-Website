@@ -2,11 +2,14 @@
 
 .title_1{text-align: center;
     color: rgb(219, 232, 222);
-    margin-top: 200px;
+    margin-top: 150px;
     font-size: 60px;
 }
-.question{
-    color: rgb(163, 91, 218);
+
+
+
+.header {
+    color: rgb(227, 68, 20);
 }
 .description{
     color: rgb(219, 121, 16);

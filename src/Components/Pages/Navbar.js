@@ -8,7 +8,7 @@ function Navigation() {
     <nav className="navbar navbar-expand navbar-dark bg-dark">
       <div className="container">
         <NavLink className="navbar-brand" to="/main">
-          React Multi-Page Website
+        Front-End Developer
         </NavLink>
         <div>
           <ul className="navbar-nav ml-auto">

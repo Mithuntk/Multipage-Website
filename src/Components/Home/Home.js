@@ -8,13 +8,13 @@ function Home() {
     <div>
       <div className="header">
          
-          <h3 className='sign'><Link to="/signup">Sign up</Link></h3>
-          <h3 className='question'>Do you already have an account? <Link to="/login">Log in</Link></h3>
+          <p className='sign' ><Link to="/signup" >Sign up</Link></p>
+          <p className='question'>Do you already have an account? <Link to="/login" >Log in</Link></p>
        </div>
        <div className='title_1'>
         <h2>Welcome to Our Platform!</h2>
         </div>
-        <p className='description'>Explore a world of possibilities with our innovative platform. Whether you're here to discover new opportunities, connect with like-minded individuals, or simply stay informed, we've got you covered. Our home page serves as a gateway to a wealth of resources and features designed to enrich your experience. From engaging content to powerful tools, find everything you need to thrive in one convenient location. Join us today and embark on a journey of growth, discovery, and success.</p>
+        <p className='description'>A front-end developer is a type of software developer who specializes in creating and designing the user interface (UI) and user experience (UX) of websites and web applications. The primary responsibility of a front-end developer is to ensure that the visual and interactive aspects of a website or application are user-friendly, aesthetically pleasing, and functionally efficient.</p>
     </div>
   );
 }
