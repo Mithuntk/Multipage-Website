@@ -2,14 +2,21 @@
 
 .register {
     width: 500px;
-    margin: 0 auto;
+    width: 350px;
+    margin-top: 12%;
+    margin-left: 38%;
     padding: 20px;
     border: 1px solid #ccc;
-    border-radius: 5px;
-    background-color: #522929;
+    border-radius: 80px;
+    background-color: #7acabe;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: fit-content;
     text-align: center;
     color: aliceblue;
-  }
+    
+}
+
+
   
   .register h1 {
     text-align: center;
@@ -19,10 +26,12 @@
   .register form {
     display: flex;
     flex-direction: column;
+   
   }
   
   .register label {
     margin-bottom: 5px;
+   
   }
   
   .register input[type="text"],
@@ -32,16 +41,20 @@
     margin-bottom: 10px;
     border: 1px solid #654a4a;
     border-radius: 3px;
+
   }
   
   .register button[type="submit"] {
     padding: 10px;
+  margin-left: 83px;
     margin-top: 10px;
     border: none;
-    border-radius: 3px;
+    border-radius: 10px;
     background-color: #007bff;
     color: #fff;
     cursor: pointer;
+    width: 62%;
+    align-items: center;
   }
   
   .register button[type="submit"]:hover {

@@ -1,28 +1,47 @@
 
 
 .title_1{text-align: center;
-    color: rgb(219, 232, 222);
+    color: rgb(239, 3, 3);
     margin-top: 150px;
     font-size: 60px;
-}
+    font-weight: bolder;
+    font-size: 6rem;
+    font-family: "Play", sans-serif;
+    }
+    .title_1 h2 {
+        margin: 1rem auto;
+        animation: neon 1s ease infinite;
+    }
+    @keyframes neon {
+        0%,
+        100% {
+            text-shadow: 0 0 10px #ef00e3a8, 0 0 20px #ef00e3a8, 0 0 20px #ef00e3a8, 0 0 20px #ef00e3a8, 0 0 2px #fed128, 2px 2px 2px #806914;
+            color: #f5efcb;
+        }
+        50% {
+            text-shadow: 0 0 2px #800e0b, 0 0 5px #800e0b, 0 0 5px #800e0b, 0 0 5px #800e0b, 0 0 2px #800e0b, 4px 4px 2px #40340a;
+            color: #eda0d3;
+        }
+    }
 
 
 
-.header {
-    color: rgb(227, 68, 20);
-}
+
+
 .description{
-    color: rgb(219, 121, 16);
-    animation: fadeIn 3s ease-out;
+    color: rgb(233, 244, 38);
+    animation: fadeIn 10s ease-out;
+    padding: 10%;
+    font-weight: bolder;
 }
 
 @keyframes fadeIn {
     from {
       opacity: 0;
-      transform: translateY(20px);
+      transform: translateY(100px);
     }
     to {
-      opacity: 5;
+      opacity: 10;
       transform: translateY(10px);
     }
   }

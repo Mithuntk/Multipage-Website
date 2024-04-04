@@ -11,7 +11,7 @@ function Login() {
       e.preventDefault(); 
       firebase.auth().signInWithEmailAndPassword(email, password)
         .then(() => {
-               history.push('/profile');
+               history('/profile');
         }).catch((error) => {
           console.log(error.message);
         });

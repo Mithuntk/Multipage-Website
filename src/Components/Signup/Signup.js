@@ -29,7 +29,7 @@ function Register() {
       })
       .then(() => {
         setLoading(false);
-        history.push("/login"); // or navigate('/login');
+        history("/login"); // or navigate('/login');
       })
       .catch((error) => {
         console.error('Error creating user:', error.message);
@@ -49,6 +49,7 @@ function Register() {
             id="username"
             name="username"
             value={username}
+            placeholder="Enter username"
           onChange={(e) => setUsername(e.target.value)}
           autoComplete='username"'
             required
@@ -63,6 +64,7 @@ function Register() {
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             defaultValue="Doe"
+            placeholder="Enter email"
           />
         </div>
         <div>
@@ -75,6 +77,7 @@ function Register() {
             onChange={(e) => setPassword(e.target.value)}
             autoComplete="new-password"
             defaultValue="Doe"
+            placeholder="Enter your password"
           />
         </div>
         
@@ -88,6 +91,7 @@ function Register() {
             onChange={(e) => setConfirmPassword(e.target.value)}
             autoComplete="confirm-password"
             defaultValue="Doe"
+            placeholder="Enter your password"
           />
         </div>
         <button  type="submit">Signup</button>
